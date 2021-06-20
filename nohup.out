@@ -1,0 +1,46 @@
+> Starting dev server...
+(node:11184) DeprecationWarning: Tapable.plugin is deprecated. Use new API on `.hooks` instead
+(node:11184) DeprecationWarning: Tapable.apply is deprecated. Call apply on the plugin directly instead
+TypeError: cb is not a function
+    at /root/stackedit/stackedit-5.14.0/build/dev-server.js:43:5
+    at Promise (eval at create (/root/stackedit/stackedit-5.14.0/node_modules/html-webpack-plugin/node_modules/tapable/lib/HookCodeFactory.js:51:12), <anonymous>:11:16)
+    at new Promise (<anonymous>)
+    at AsyncSeriesWaterfallHook.eval [as promise] (eval at create (/root/stackedit/stackedit-5.14.0/node_modules/html-webpack-plugin/node_modules/tapable/lib/HookCodeFactory.js:51:12), <anonymous>:4:8)
+    at AsyncSeriesWaterfallHook.lazyCompileHook [as _promise] (/root/stackedit/stackedit-5.14.0/node_modules/html-webpack-plugin/node_modules/tapable/lib/Hook.js:35:21)
+    at /root/stackedit/stackedit-5.14.0/node_modules/html-webpack-plugin/index.js:673:47
+    at Promise.resolve.then.then.then.then.then.then.then.then.catch.then.then (/root/stackedit/stackedit-5.14.0/node_modules/html-webpack-plugin/index.js:214:21)
+ WARNING  Compiled with 4 warnings5:00:03 PM
+
+ warning  
+
+configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+ warning  
+
+asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  static/fonts/lato-normal.27bd77b.woff (302 KiB)
+  static/fonts/lato-normal-italic.f28f2d6.woff (321 KiB)
+  static/fonts/lato-black.f80bda6.woff (290 KiB)
+  static/fonts/lato-black-italic.798eafd.woff (303 KiB)
+  app.js (3.1 MiB)
+
+ warning  
+
+entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  app (3.1 MiB)
+      app.js
+
+
+ warning  
+
+webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/
+
+> Listening at http://localhost:8080
+

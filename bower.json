@@ -1,0 +1,17 @@
+{
+  "name": "stackedit",
+  "description": "Free, open-source, full-featured Markdown editor",
+  "main": "index.js",
+  "authors": [
+    "Benoit Schweblin"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
